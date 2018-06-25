@@ -13,10 +13,6 @@
     "start": "nodemon ./src/app.js",
     "test": "mocha -R spec -u tdd tests/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HASANCabuk/-Logging-with-Node-js.git"
-  },
   "author": "",
   "license": "ISC"
 }
