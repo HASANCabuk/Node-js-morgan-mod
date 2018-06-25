@@ -1,0 +1,22 @@
+{
+  "name": "logmorgan",
+  "version": "1.0.5",
+  "description": "",
+  "main": "./src/app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "mocha -R spec -u tdd tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HASANCabuk/-Logging-with-Node-js.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
